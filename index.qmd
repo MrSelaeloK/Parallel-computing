@@ -1,0 +1,6 @@
+---
+title: "index"
+subtitle: "here is my GitHub link: github.com/MrSelaeloK/Repositories"
+body: "In repositories, each practical has its repositories folder, Choose the repository titles with the practial you want to view commits" 
+format: html
+---
