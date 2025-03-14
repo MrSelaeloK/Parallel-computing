@@ -94,6 +94,6 @@ systemT.Lapply<-data.frame(systemT.Lapply)
 cbind(systemT.foreach,systemT.Lapply,
       systemT.replicate)
 
-#this one works
+
 stopCluster(cl)       #releasing the cores
 
