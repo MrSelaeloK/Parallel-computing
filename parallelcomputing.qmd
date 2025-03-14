@@ -3,7 +3,7 @@ title: "parallel computing"
 format: html
 ---
 
-##Question 1
+## Question 1
 
 Print mean and the variance after using the foreach on sample of 50 values from exponential
 
@@ -20,7 +20,7 @@ colnames(results)<-c("mean", "variance")
 print(data.frame(results))
 ```
 
-##Question 2
+## Question 2
 
 comparing the sequential processing time vs the parallel processing time
 
@@ -51,7 +51,7 @@ data.frame(cbind(sequential.processing,parallel.processing))
 stopCluster(cl)       #releasing the cores
 ```
 
-##Question 3
+## Question 3
 
 There seems to be a consistent underestimation of the true proportion. larger Sample size fixed it and having an extremely large results in there being a higher proportion than 1-alpha.
 
@@ -80,7 +80,7 @@ stopCluster(cl)       #releasing the cores
 #when the numbers are taken up
 ```
 
-##Question 4
+## Question 4
 
 retrieving max values from having used irnom and foreach
 
@@ -107,7 +107,7 @@ max_values
 stopCluster(cl)       #releasing the cores
 ```
 
-##Question 5
+## Question 5
 
 comparing system times between parlapply, replicate and foreach
 
